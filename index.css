@@ -4,3 +4,27 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+.main-section {
+    width: 500px;
+    border-radius: 10px;
+    margin: 100px auto;
+    padding: 10px 30px 60px;
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.2);
+}
+
+input , section {
+    clear: both;
+    display: none;
+    padding-top: 10px;
+}
+
+label {
+    cursor: pointer;
+    font-size: 14px;
+    display: block;
+    float: left;
+
+    padding: 10px 30px;
+    border-top: 2px solid transparent;
+}
