@@ -27,4 +27,26 @@ label {
 
     padding: 10px 30px;
     border-top: 2px solid transparent;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-bottom: 1px solid #DDD;
+}
+
+#home-tab:checked~#home-content,
+#html-tab:checked~#html-content,
+#css-tab:checked~#css-content,
+#javascript-tab:checked~#javascript-content {
+    display: block;
+}
+
+input:checked+label {
+    font-weight: bold;
+    border-top-color: #FFB03D;
+    border-right-color: #d5caca;
+    border-left-color: #d5caca;
+    border-bottom-color: transparent;
+}
+
+h2 {
+    margin-bottom: 1rem;
 }
