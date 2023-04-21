@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Arimo:wght@600&family=Merriweather:ital@1&family=Noto+Sans:wght@300&family=Source+Serif+Pro:wght@600&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Arimo', sans-serif;
 }
 
 .main-section {
-    width: 500px;
+    width: 700px;
     border-radius: 10px;
     margin: 100px auto;
     padding: 10px 30px 60px;
@@ -50,3 +53,14 @@ input:checked+label {
 h2 {
     margin-bottom: 1rem;
 }
+
+h3 {
+    color: #e65b00;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 18px;
+}
+
